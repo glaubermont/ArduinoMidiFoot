@@ -1,4 +1,4 @@
-//Código desenvolvido por Glauber Santos Monteiro 
+//Código desenvolvido por Glauber Monteiro 
 // baseado em pesquisas de arduino e documentações sobre midi - código beta.
 
 byte powerled = 13; // led do power (ligado  - on)
