@@ -28,27 +28,27 @@ void loop() {
       botao1 = digitalRead(7);// variavel recebe a porta digital 7 do arduino
 
    }
-       byte botao2 = digitalRead(8); // leitura da porta digital 7 - pedal digital
+       byte botao2 = digitalRead(8); // leitura da porta digital 8 - pedal digital
     if (botao2 == 1)  { // ativa o botão q seleciona o efeito
       
       noteOn(0x90, 58, 40);// função para emitir o efeito 
-      botao2 = digitalRead(8);// variavel recebe a porta digital 7 do arduino
+      botao2 = digitalRead(8);// variavel recebe a porta digital 8 do arduino
 
      
    }
 
-       byte botao3 = digitalRead(9); // leitura da porta digital 7 - pedal digital
+       byte botao3 = digitalRead(9); // leitura da porta digital 9 - pedal digital
     if (botao3 == 1)  { // ativa o botão q seleciona o efeito
       
       noteOn(0x90, 59, 40);// função para emitir o efeito 
-      botao3 = digitalRead(9);// variavel recebe a porta digital 7 do arduino 
+      botao3 = digitalRead(9);// variavel recebe a porta digital 9 do arduino 
    }
 
-       byte botao4 = digitalRead(10); // leitura da porta digital 7 - pedal digital
+       byte botao4 = digitalRead(10); // leitura da porta digital 10 - pedal digital
     if (botao4 == 1)  { // ativa o botão q seleciona o efeito
       
       noteOn(0x90, 60, 40);// função para emitir o efeito 
-      botao4 = digitalRead(10);// variavel recebe a porta digital 7 do arduino
+      botao4 = digitalRead(10);// variavel recebe a porta digital 10 do arduino
 
    }
 
